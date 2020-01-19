@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 0 1px #666666;
+  padding: 20px 0;
+  position: relative;
+}
+
+header img {
+  width: 80px;
+}
+
+hr {
+  width: 90%;
+}
+
+#back_arrow {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background-image: url('imgs/back_arrow.svg');
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+}
+
+#back_arrow:hover {
+  background-image: url('imgs/back_arrow_hover.svg');
+}
+
+#back_arrow_a {
+  padding: 0;
+  margin: 0;
+}
+
+#back_arrow:active {
+  background-image: url('imgs/back_arrow_pressed.svg');
+}
+
+header p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #666666;
+  font-size: 200%;
+}
+
+.people_section {
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.people_container a {
+  text-decoration: none;
+}
+
+.physicist {
+  margin: 0 auto;
+  outline: none;
+  padding: 20px;
+  color: #666666;
+  font-size: 180%;
+  border: 1px solid #666666;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.physicist:hover {
+  border-color: #448aff;
+  color: white;
+  background: #448aff;
+}
+
+.physicist:active {
+  background-color: #2962FF;
+  color: white;
+}
+
+.title_scientists {
+  color: #448aff;
+  font-size: 300%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.physicist_bio {
+  border: 1px solid #666666;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.physicist_bio p {
+  padding: 30px;
+  margin: 0;
+  font-size: 200%;
+  color: #666666;
+}
+
+.physicist_born_title {
+  padding: 0;
+  margin: 0;
+  padding: 20px;
+  color: #666666;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.physicist_bio_title {
+  padding: 0;
+  margin: 0;
+  padding: 30px 0 0 0;
+  color: #666666;
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer {
+  justify-content: center;
+  box-shadow: 0px 0px 1px #666666;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+.footer_container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer p {
+  color: #666666;
+}
+
+footer h2 {
+  margin: 0;
+  margin-top: 10px;
+}
+
+footer h2 a {
+  color: #666;
+}
+
+footer h2 a:hover {
+  color: #448aff;
+}
+
+footer h2 a:active {
+  color: #2962FF
+}
+
+iframe {
+  border-radius: 30px;
+  height: 600px;
+  margin-bottom: -4px;
+}
+
+.about_section {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about_logo {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 200px;
+  height: auto;
+}
+
+.logo_none {
+   opacity: 0;
+}
+
+#name_about_us {
+  padding: 20px;
+}
+
+.name_about {
+  text-align: center;
+  font-size: 300%;
+  color: #666666;
+}
+
+.text_about {
+  text-align: center;
+  font-size: 200%;
+  color: #666666;
+}
+
+.version_about {
+  text-align: center;
+  font-size: 150%;
+  color: #666666;
+}
+
+@media screen and (max-width: 800px) {
+  .physicist {
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 200%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  header {
+    padding: 10px 0;
+  }
+
+  #back_arrow {
+    display: none;
+  }
+
+  iframe {
+    height: 400px;
+  }
+
+  .people_section {
+    margin: 0 auto;
+    width: 85%;
+  }
+
+  .title_scientists {
+    text-align: center;
+  }
+
+  .physicist_bio {
+    border: none;
+  }
+
+  .physicist_bio p {
+    padding: 0;
+    font-size: 180%;
+    padding: 15px 0;
+  }
+}
