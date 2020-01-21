@@ -30,14 +30,14 @@ hr {
   position: absolute;
   left: 20px;
   top: 20px;
-  background-image: url('imgs/back_arrow.svg');
+  background-image: url('imgs/back_arrow1.svg');
   width: 80px;
   height: 80px;
   background-repeat: no-repeat;
 }
 
 #back_arrow:hover {
-  background-image: url('imgs/back_arrow_hover.svg');
+  background-image: url('imgs/back_arrow_hover1.svg');
 }
 
 #back_arrow_a {
@@ -46,7 +46,11 @@ hr {
 }
 
 #back_arrow:active {
-  background-image: url('imgs/back_arrow_pressed.svg');
+  background-image: url('imgs/back_arrow_pressed1.svg');
+}
+
+.arrow_circle:hover {
+  background-color: #448aff;
 }
 
 header p {
@@ -221,6 +225,10 @@ iframe {
 
   header {
     padding: 10px 0;
+  }
+
+  .arrow_circle {
+    display: none;
   }
 
   #back_arrow {
