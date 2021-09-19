@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+  <android.support.design.chip.Chip
+      android:id="@+id/chip"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/standard_margin"
+      android:layout_marginBottom="@dimen/standard_margin"
+      android:layout_marginLeft="@dimen/standard_margin"
+      android:layout_marginRight="5dp"
+      android:fontFamily="@font/nunito"
+      android:text="This is the question suggestion"
+      android:theme="@style/Theme.MaterialComponents.Light" />
+
+</LinearLayout>

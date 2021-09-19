@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">WAYPHY</string>
+    <string name="title_dataset_list" translatable="false">Datasets</string>
+    <string name="title_dataset_detail" translatable="false">Dataset Detail</string>
+    <string name="you_might_want_to_ask" translatable="false">Ask a question</string>
+    <string name="text_query" translatable="false">Ask me</string>
+    <string name="ask_question" translatable="false">Ask question</string>
+    <string name="people">People</string>
+    <string name="about">About</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
